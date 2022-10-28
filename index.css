@@ -1,0 +1,165 @@
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    }
+
+    .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 8px;
+    }
+
+    .icon-bar a:hover {
+    background-color: #000;
+    }
+
+    .facebook {
+    background: #3B5998;
+    color: white;
+    }
+
+    .twitter {
+    background: #55ACEE;
+    color: white;
+    }
+
+    .google {
+    background: #dd4b39;
+    color: white;
+    }
+
+    .linkedin {
+    background: #007bb5;
+    color: white;
+    }
+
+    .youtube {
+    background: #bb0000;
+    color: white;
+    }
+    .header {
+    overflow: hidden;
+    background-color: white;
+    padding: 20px 10px;
+    border: 1px solid grey;
+    /* box-shadow: 0px 8px 16px 0px rgb(232, 229, 229); */
+    /* position: fixed; */
+    z-index: 3;
+    }
+
+    .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+    }
+
+    .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    }
+
+    .header a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+
+    .header a.active {
+    background-color: dodgerblue;
+    color: white;
+    }
+
+    .header-right {
+    float: right;
+    }
+
+    @media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    
+    .header-right {
+        float: none;
+    }
+    }
+    .col-sm-12{
+        height: 80px;
+       
+    }
+    .col-sm-4{
+        
+        float: right;
+        padding-right: 20px;
+    }
+    .col-sm-2{
+        height: 50px;
+    }
+    .box1{
+        border-radius: 5px;
+        width: 100;
+        height: 300px;
+    }
+    .box2{
+        
+        width: 100%;
+        height: 1450px;
+        border: 1px solid grey;
+    }
+    .box3{
+        border-radius: 5px;
+        width: 330px;
+        height: 350px;
+        padding: 10px;
+       
+    }
+    .box4{
+        border-radius: 5px;
+        width: 330px;
+        height: 350px;
+        
+    }
+    .header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+    }
+    .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    }
+    .sticky + .container {
+    padding-top: 102px;
+    }
+    @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+    }
+    
+    .topnav input[type=text] {
+        border: 1px solid #ccc;  
+    }
+    }
+    .footer {
+    width: 100%;
+    background-color: rgb(82, 78, 78);
+    color: white;
+    height: 150px;
+    text-align: center;
+    padding-top: 50px;
+ }
